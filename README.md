@@ -21,7 +21,30 @@ HTTP=Hyper Text Transfer Protocol(used by web browsers)
 0-1023 ports are reserved..<br>
 1024-49152 are reserved for applications and the remaining ones we can use. <br>
 
+## How does communication occurs btw 2 computer?
+- Guided(by wires)--> optical fibre cable , coaxial cable
+- Non Guided(bluetooth, wifi)
 
+---
 
+- **LAN**= local area network => house , office or in an particular area via Ethernet cable/wifi
+- **WAN** = Accross countries=> optical fibre cables
+- **MAN** = 
+
+---
+ - **Modems**=> used to convert digital to analog singals and vice versa.
+ - **Router**==> routes data based on their IP address
+---
+#### How computers are connected?
+- **Topologies**:
+- 1. BUS Topology:
+  2. Ring Topology
+  3. Star Topology
+  4. Tree topology
+  5. Mesh Topology
+   
+---
+
+## ✅OSI Model:(Structure of Network:)
 
 
