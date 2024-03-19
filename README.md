@@ -16,6 +16,12 @@ HTTP=Hyper Text Transfer Protocol(used by web browsers)
 
 <br>
 -  check IP of own machine ```curl ifconfig.me -s```
-- ISP(internet service provider) like Airtel provides router which has global IP , all devices connected with the router has same IP , these are known as local IP. Routers are assigned to global IP with DHCP protocols. if u request for google.com from any connected machine google see the reuqest made by global IP. then google send back response to router or Global IP and later the Router decides whom to sent the request using NAT(Network Access Translator).
+- ISP(internet service provider) like Airtel provides router which has global IP , all devices connected with the router has same IP , these are known as local IP. Routers are assigned to global IP with DHCP protocols. if u request for google.com from any connected machine google see the reuqest made by global IP. then google send back response to router or Global IP and later the Router decides whom to sent the request using NAT(Network Access Translator). Now we have to decide which application on that machine is requesting for the service...so have to decide where to sent the result on that machine. IP address decides which machine to sent the result data but the **Port num**  decides which application data should be sent. Port is 16 bit number , each bit contains 0/1...so total num of port availavale 2^16 = almost 65K. 
+<br>All http stuffs done in PORT 80. MongoDB runs on 2707. <br>
+0-1023 ports are reserved..<br>
+1024-49152 are reserved for applications and the remaining ones we can use. <br>
+
+
+
 
 
