@@ -45,6 +45,12 @@ HTTP=Hyper Text Transfer Protocol(used by web browsers)
    
 ---
 
-## ✅OSI Model:(Structure of Network:)
+## ✅OSI Model:(Structure of Network:) Open System Interconnection Model:
+- How servers communicate with each others
+- There are 7 layers ---> **APplication**[its implemented in software...users use these...this layer conatins application] , <br>
+**presentation**[users data goes to this layer from application layer..converst our msg to machine readble binary formats and goes under encoding/encryption] ,<br>
+**session**[helps in setting up connection and termination of the sessions] ,<br> **transport**[data transferred from session to transport...data recieved from sessions will be divided into small segments which will have seperate src and dest PORT num, also take part in err control and checksum] ,<br>
+**Network**[works for transmission of recieved data btw computers situated between diff networks..routers live here, Logical Addressing/IP addressing here] ,<br>  **data link**[allows to directly communicate to computers...conatins IP of both sender and reciever machines in the form of packets] , <br> **Physical layer**[].
+
 
 
