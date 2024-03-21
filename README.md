@@ -64,7 +64,7 @@ Data ssending from client from Application to Physical(Top to buttom) but reciev
 
 ![image](https://github.com/Mrjoy832/Computer-Network/assets/77873383/0ef2da67-e550-41aa-aa0c-5be47195f891)
 
-- in **Application layer** close to end user...when we browse anything , protocols HTTP -
+- in **Application layer** close to end user, user interact in this...when we browse anything , protocols HTTP. 
 - In **Presentation Layer** , compresses the data and encrypt the data
 - In **Session layer** open session btw sender and reciever and create Authentication
 - In **transport layer**, heart of OSI , ensures perfect delivery of transporting the data , TCP,UDP lies here. Transport header (PORT )added ,
@@ -80,6 +80,13 @@ Data ssending from client from Application to Physical(Top to buttom) but reciev
 - DataLink and Physcial merged into Physical
 - Rest all the functionalities are almost similar.
 ---
+
+#### Read from anywhere:
+- Repeator , Hub , Bridge , Switch , Routers, Gateway
+
+---
+## Protocols: 
+- **TCP/IP**
 
 
 
