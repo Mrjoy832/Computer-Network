@@ -72,5 +72,14 @@ Data ssending from client from Application to Physical(Top to buttom) but reciev
 - **Data link**, ensures goes to dest err free and in a sequence, pacets divided into frames including the MAC address using ethernet
 - **Physical LAyer**, netowrk physical cables reside ...binary bits data goes through the cables.
 
+---
+### ➡️TCP/IP Model
+![image](https://github.com/Mrjoy832/Computer-Network/assets/77873383/767414d4-b09b-43ba-8b56-b85ef41fc39e)
+
+- Application , presentation , session layer merged into Application layer
+- DataLink and Physcial merged into Physical
+- Rest all the functionalities are almost similar.
+---
+
 
 
