@@ -52,5 +52,25 @@ HTTP=Hyper Text Transfer Protocol(used by web browsers)
 **session**[helps in setting up connection and termination of the sessions] ,<br> **transport**[data transferred from session to transport...data recieved from sessions will be divided into small segments which will have seperate src and dest PORT num, also take part in err control and checksum] ,<br>
 **Network**[works for transmission of recieved data btw computers situated between diff networks..routers live here, Logical Addressing/IP addressing here] ,<br>  **data link**[allows to directly communicate to computers...conatins IP of both sender and reciever machines in the form of packets] , <br> **Physical layer**[].
 
+### [OSI from another Resource:](https://youtu.be/sCYkeo466Qs?si=2XhU6wvVmB7elec4) 
+
+![image](https://github.com/Mrjoy832/Computer-Network/assets/77873383/fbec81b1-8fe4-4502-85b7-d74923a2256e)
+
+Data ssending from client from Application to Physical(Top to buttom) but recieving into server from buttom to top(Physical to APplication)<br>
+
+#### Example with Army Ranking:
+
+![image](https://github.com/Mrjoy832/Computer-Network/assets/77873383/3390305a-b25c-4e95-a188-e75f81284374)
+
+![image](https://github.com/Mrjoy832/Computer-Network/assets/77873383/0ef2da67-e550-41aa-aa0c-5be47195f891)
+
+- in **Application layer** close to end user...when we browse anything , protocols HTTP -
+- In **Presentation Layer** , compresses the data and encrypt the data
+- In **Session layer** open session btw sender and reciever and create Authentication
+- In **transport layer**, heart of OSI , ensures perfect delivery of transporting the data , TCP,UDP lies here. Transport header (PORT )added ,
+- In **network layer**, segement breaks into Packet...network header(Logical IP of dest) added. Router comes into this.
+- **Data link**, ensures goes to dest err free and in a sequence, pacets divided into frames including the MAC address using ethernet
+- **Physical LAyer**, netowrk physical cables reside ...binary bits data goes through the cables.
+
 
 
