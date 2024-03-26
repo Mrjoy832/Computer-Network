@@ -87,6 +87,9 @@ Data ssending from client from Application to Physical(Top to buttom) but reciev
 ---
 ## Protocols: 
 - **TCP/IP**
+ <br> **protocols under TCP/IP**:HTTP, DHCP , FTP , SMTP , POP3 , IMAC , SSH , VNC
 
+- Telnet Protocol --> via port:23
+- UDP --> stateless connection , data may be lost
 
 
