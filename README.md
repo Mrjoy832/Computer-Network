@@ -92,4 +92,5 @@ Data ssending from client from Application to Physical(Top to buttom) but reciev
 - Telnet Protocol --> via port:23
 - UDP --> stateless connection , data may be lost
 
+----
 
